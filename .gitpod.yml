@@ -1,0 +1,5 @@
+tasks:
+  - name: Dependencies & Database
+    init: |
+      bundle install
+      rails db:setup
